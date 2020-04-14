@@ -1,0 +1,145 @@
+{extend name="public/base" /}
+<!--catename如果有值就用.没有则用默认值default-->
+{block name="title"}
+{$catename|default="长春个人博客"}--{$webInfo.webname}
+{/block}
+
+{block name="content"}
+
+    <!-- /Page Breadcrumb -->
+    <!-- Page Body -->
+    <div class="page-body">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="widget radius-bordered">
+                    <div class="widget-body">
+                        <!--method="post"  action="{:url('admin/article/add')}"   出错误就可以用同步请求来试试-->
+                        <form action=""  class="form-horizontal">
+                            <input type="hidden" name="member_id" value="{:session('index.id')}">
+                            <div class="form-group">
+                                <label for="title" class="control-label col-sm-2 no-padding-right">文章标题</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="title" name="title" placeholder="文章标题" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="author" class="control-label col-sm-2 no-padding-right">文章作者</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="author" name="author" placeholder="文章作者" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="tags" class="control-label col-sm-2 no-padding-right">标签</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="tags" name="tags" placeholder="标签" />
+                                    <span class="help-block">标签以|来分隔</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="checkbox col-sm-offset-2 col-sm-6">
+                                    <label>
+                                        <input type="checkbox" name="is_top" value="1">
+                                        <span class="text">是否推荐</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="cateid" class="control-label col-sm-2">所属导航</label>
+                                <div class="col-sm-6">
+                                    <select id="cateid" name="cateid" class="form-control">
+                                        <option value="">请选择</option>
+                                        {volist name="cates" id="vo"}
+                                        <option value="{$vo.id}">{$vo.catename}</option>
+                                        {/volist}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="desc" class="control-label col-sm-2 no-padding-right">文章概要</label>
+                                <div class="col-sm-6">
+                                    <textarea name="desc" id="desc" cols="30" rows="10" class="form-control" placeholder="文章标题"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="content" class="control-label col-sm-2">文章内容</label>
+                                <div class="col-sm-6">
+                                    <textarea name="content" id="content" cols="30" rows="10" class=""></textarea>
+                                </div>
+                            </div>
+                            {if session('?index.id')}
+                            <div class="form-group">
+                                <label for="author" class="control-label col-sm-2 no-padding-right">验证码</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="verify" name="verify" placeholder="验证码" />
+                                    <span class="input-group-addon" style="width: 150px;"><img  src="{:url('index/verify')}" id="vcode" alt="captcha" style="width: 150px;height: 45px; " onClick="this.src='{:url(\'index/verify\')}?' + 'rand=' + Math.random()"></span>
+                                </div>
+                            </div>
+                            {/if}
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-6">
+                                    <button type="submit" class="btn btn-primary" id="articleAdd">添加</button>
+                                    <!--<input type="submit" value="提交">        进行同步请求-->
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Page Body -->
+</div>
+{/block}
+{block name="js"}
+<script src="__admin__/lib/ueditor/ueditor.config.js"></script>
+<script src="__admin__/lib/ueditor/ueditor.all.js"></script>
+<script>
+  //验证码刷新函数
+  function refresh(){
+    var vcode = document.getElementById('vcode');
+    vcode.src = '{:url(\'index/verify\')}?' + 'rand=' + Math.random();
+  }
+
+  $(function () {
+    UE.getEditor('content');
+  });
+  $('#articleAdd').click(function () {
+    if ("{:session('?index.id')}") {
+      $.ajax({
+        url: "{:url('index/article/add')}",
+        type: "post",
+        data: $('form').serialize(),
+        dataType: "json",
+        success:function (data) {
+          if (data.code == 1) {
+            layer.msg(data.msg, {
+              icon:6,
+              time:2000
+            }, function () {
+              location.href = data.url;
+            });
+          }else {
+            var test = document.getElementById('verify');     //输入错误信息清空值
+            test.value = '';
+            layer.open({
+              title:"文章发布失败",
+              content:data.msg,
+              icon:5,
+              anim:6
+            });
+            refresh();
+          }
+        }
+      });
+    }else {
+      layer.msg('请先登录', {
+        icon:5,
+        time:2000
+      }, function () {
+        location.href = "{:url('index/index/login')}";
+      });
+        }
+    return false;
+  });
+</script>
+{/block}
