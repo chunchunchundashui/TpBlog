@@ -1,0 +1,4744 @@
+---------------------------------------------------------------
+[ 2019-09-30T08:49:04+08:00 ] 127.0.0.1 GET tpblog.cn/
+[运行时间：0.286642s] [吞吐率：3.49req/s] [内存消耗：1,403.13kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tpblog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:49:07+08:00 ] 127.0.0.1 GET tpblog.cn/admin
+[运行时间：0.174925s] [吞吐率：5.72req/s] [内存消耗：1,773.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:49:07+08:00 ] 127.0.0.1 GET tpblog.cn/admin
+[运行时间：0.066213s] [吞吐率：15.10req/s] [内存消耗：1,773.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:49:08+08:00 ] 127.0.0.1 GET tpblog.cn/logo.jpg
+[运行时间：0.062373s] [吞吐率：16.03req/s] [内存消耗：1,438.19kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'logo.jpg',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tpblog.cn/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:49:09+08:00 ] 127.0.0.1 POST tpblog.cn/admin.html
+[运行时间：0.202620s] [吞吐率：4.94req/s] [内存消耗：2,845.80kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:49:15+08:00 ] 127.0.0.1 POST tpblog.cn/admin.html
+[运行时间：0.080647s] [吞吐率：12.40req/s] [内存消耗：2,934.80kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12',
+  'password' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:49:17+08:00 ] 127.0.0.1 GET tpblog.cn/admin/index.html
+[运行时间：0.094377s] [吞吐率：10.60req/s] [内存消耗：1,769.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\phpStudy\WWW\tpblog\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:49:30+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.291047s] [吞吐率：3.44req/s] [内存消耗：3,230.13kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:52:07+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.163147s] [吞吐率：6.13req/s] [内存消耗：3,229.86kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:54:06+08:00 ] 127.0.0.1 GET tpblog.cn/
+[运行时间：0.050030s] [吞吐率：19.99req/s] [内存消耗：1,403.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tpblog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:54:14+08:00 ] 127.0.0.1 GET tpblog.cn/admin
+[运行时间：0.058236s] [吞吐率：17.17req/s] [内存消耗：1,778.11kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:54:15+08:00 ] 127.0.0.1 GET tpblog.cn/admin/index.html
+[运行时间：0.060719s] [吞吐率：16.47req/s] [内存消耗：1,769.46kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\phpStudy\WWW\tpblog\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:54:15+08:00 ] 127.0.0.1 GET tpblog.cn/admin/index.html
+[运行时间：0.065688s] [吞吐率：15.22req/s] [内存消耗：1,769.24kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\phpStudy\WWW\tpblog\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:54:21+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.089879s] [吞吐率：11.13req/s] [内存消耗：3,066.30kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:57:13+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.093382s] [吞吐率：10.71req/s] [内存消耗：3,066.39kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:57:36+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.115609s] [吞吐率：8.65req/s] [内存消耗：3,230.22kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:57:46+08:00 ] 127.0.0.1 POST tpblog.cn/admin/loginout.html
+[运行时间：0.052165s] [吞吐率：19.17req/s] [内存消耗：1,766.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'loginout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->loginout[ D:\phpStudy\WWW\tpblog\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:57:48+08:00 ] 127.0.0.1 GET tpblog.cn/admin.html
+[运行时间：0.054599s] [吞吐率：18.32req/s] [内存消耗：1,773.46kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:58:08+08:00 ] 127.0.0.1 POST tpblog.cn/admin.html
+[运行时间：0.072372s] [吞吐率：13.82req/s] [内存消耗：2,934.80kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin01',
+  'password' => 'admin01',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:58:11+08:00 ] 127.0.0.1 GET tpblog.cn/admin/index.html
+[运行时间：0.051788s] [吞吐率：19.31req/s] [内存消耗：1,769.45kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\phpStudy\WWW\tpblog\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:58:16+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.090528s] [吞吐率：11.05req/s] [内存消耗：3,066.28kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:58:34+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.099025s] [吞吐率：10.10req/s] [内存消耗：3,230.05kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:58:38+08:00 ] 127.0.0.1 POST tpblog.cn/admin/loginout.html
+[运行时间：0.045331s] [吞吐率：22.06req/s] [内存消耗：1,766.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'loginout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->loginout[ D:\phpStudy\WWW\tpblog\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:58:40+08:00 ] 127.0.0.1 GET tpblog.cn/admin.html
+[运行时间：0.060339s] [吞吐率：16.57req/s] [内存消耗：1,773.46kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:58:47+08:00 ] 127.0.0.1 POST tpblog.cn/admin.html
+[运行时间：0.074434s] [吞吐率：13.43req/s] [内存消耗：2,872.10kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin01',
+  'password' => 'admino1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:58:52+08:00 ] 127.0.0.1 POST tpblog.cn/admin.html
+[运行时间：0.079112s] [吞吐率：12.64req/s] [内存消耗：2,934.80kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin01',
+  'password' => 'admin01',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:58:54+08:00 ] 127.0.0.1 GET tpblog.cn/admin/index.html
+[运行时间：0.055049s] [吞吐率：18.17req/s] [内存消耗：1,769.45kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\phpStudy\WWW\tpblog\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:59:00+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.090850s] [吞吐率：11.01req/s] [内存消耗：3,066.28kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:59:33+08:00 ] 127.0.0.1 POST tpblog.cn/admin/loginout.html
+[运行时间：0.044515s] [吞吐率：22.46req/s] [内存消耗：1,766.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'loginout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->loginout[ D:\phpStudy\WWW\tpblog\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:59:36+08:00 ] 127.0.0.1 GET tpblog.cn/admin.html
+[运行时间：0.053986s] [吞吐率：18.52req/s] [内存消耗：1,773.46kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:59:43+08:00 ] 127.0.0.1 POST tpblog.cn/admin.html
+[运行时间：0.085693s] [吞吐率：11.67req/s] [内存消耗：2,934.78kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12',
+  'password' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:59:45+08:00 ] 127.0.0.1 GET tpblog.cn/admin/index.html
+[运行时间：0.054509s] [吞吐率：18.35req/s] [内存消耗：1,769.49kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Home->index[ D:\phpStudy\WWW\tpblog\application\admin\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:59:48+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.083245s] [吞吐率：12.01req/s] [内存消耗：3,066.30kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:59:55+08:00 ] 127.0.0.1 POST tpblog.cn/admin/adminstatus.html
+[运行时间：0.227124s] [吞吐率：4.40req/s] [内存消耗：3,007.02kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'status',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->status[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T08:59:57+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.089018s] [吞吐率：11.23req/s] [内存消耗：3,066.20kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:02:51+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminedit/1.html
+[运行时间：0.467691s] [吞吐率：2.14req/s] [内存消耗：2,953.51kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'adminInfo',
+  1 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:06:47+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminedit/1.html
+[运行时间：0.133464s] [吞吐率：7.49req/s] [内存消耗：3,114.75kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'adminInfo',
+  1 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:09:17+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminedit/1.html
+[运行时间：0.138794s] [吞吐率：7.20req/s] [内存消耗：3,114.70kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'adminInfo',
+  1 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:09:54+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminedit/1.html
+[运行时间：0.116311s] [吞吐率：8.60req/s] [内存消耗：2,942.71kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:10:14+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminedit/1.html
+[运行时间：0.096493s] [吞吐率：10.36req/s] [内存消耗：3,103.88kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:13:06+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminedit/1.html
+[运行时间：0.103477s] [吞吐率：9.66req/s] [内存消耗：2,942.71kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:18:32+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminedit/1.html
+[运行时间：0.088733s] [吞吐率：11.27req/s] [内存消耗：2,941.82kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:18:35+08:00 ] 127.0.0.1 POST tpblog.cn/admin/adminedit.html
+[运行时间：0.069501s] [吞吐率：14.39req/s] [内存消耗：2,854.21kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '59',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/adminedit/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+  'oldpass' => '',
+  'newpass' => '',
+  'nickname' => '岳长春',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:18:40+08:00 ] 127.0.0.1 POST tpblog.cn/admin/adminedit.html
+[运行时间：0.071330s] [吞吐率：14.02req/s] [内存消耗：2,854.20kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '65',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/adminedit/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+  'oldpass' => '123456',
+  'newpass' => '',
+  'nickname' => '岳长春',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:18:42+08:00 ] 127.0.0.1 POST tpblog.cn/admin/adminedit.html
+[运行时间：0.083057s] [吞吐率：12.04req/s] [内存消耗：2,880.23kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '69',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/adminedit/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+  'oldpass' => '123456',
+  'newpass' => '1345',
+  'nickname' => '岳长春',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:18:45+08:00 ] 127.0.0.1 POST tpblog.cn/admin/adminedit.html
+[运行时间：0.228044s] [吞吐率：4.39req/s] [内存消耗：3,027.69kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '65',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/adminedit/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+  'oldpass' => '12',
+  'newpass' => '1345',
+  'nickname' => '岳长春',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:18:48+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.092462s] [吞吐率：10.82req/s] [内存消耗：3,064.73kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminedit/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:18:54+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminedit/1.html
+[运行时间：0.085787s] [吞吐率：11.66req/s] [内存消耗：2,941.67kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:19:19+08:00 ] 127.0.0.1 POST tpblog.cn/admin/adminedit.html
+[运行时间：0.105675s] [吞吐率：9.46req/s] [内存消耗：3,028.55kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '88',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/adminedit/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+  'oldpass' => '1345',
+  'newpass' => '123456',
+  'nickname' => '岳长春_修改',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:19:22+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.111102s] [吞吐率：9.00req/s] [内存消耗：3,064.74kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminedit/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:30:21+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.105578s] [吞吐率：9.47req/s] [内存消耗：3,233.09kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminedit/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:30:27+08:00 ] 127.0.0.1 POST tpblog.cn/admin/admindel.html
+[运行时间：0.195388s] [吞吐率：5.12req/s] [内存消耗：2,940.36kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'del',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->del[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:30:36+08:00 ] 127.0.0.1 POST tpblog.cn/admin/admindel.html
+[运行时间：0.216373s] [吞吐率：4.62req/s] [内存消耗：2,895.95kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'del',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->del[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function delete() on a non-object[D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php:92]
+---------------------------------------------------------------
+[ 2019-09-30T09:32:31+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.109465s] [吞吐率：9.14req/s] [内存消耗：3,063.32kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminedit/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:32:42+08:00 ] 127.0.0.1 POST tpblog.cn/admin/admindel.html
+[运行时间：0.213274s] [吞吐率：4.69req/s] [内存消耗：3,007.45kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'del',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->del[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:32:44+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.098511s] [吞吐率：10.15req/s] [内存消耗：3,059.65kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:32:56+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.095486s] [吞吐率：10.47req/s] [内存消耗：3,066.95kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:38:02+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.131580s] [吞吐率：7.60req/s] [内存消耗：3,234.09kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:39:37+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.108322s] [吞吐率：9.23req/s] [内存消耗：3,234.10kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:51:09+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.110255s] [吞吐率：9.07req/s] [内存消耗：3,235.30kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:51:11+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.108011s] [吞吐率：9.26req/s] [内存消耗：3,189.98kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commnets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T09:51:26+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.118117s] [吞吐率：8.47req/s] [内存消耗：3,165.80kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commnets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:03:31+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.333592s] [吞吐率：3.00req/s] [内存消耗：3,373.82kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commnets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:04:36+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.234911s] [吞吐率：4.26req/s] [内存消耗：3,420.94kb] [文件加载：71]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commnets',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: comments[D:\phpStudy\WWW\tpblog\runtime\temp\fbce3aaa7119c233132fe18c8e076a10.php:243]
+---------------------------------------------------------------
+[ 2019-09-30T10:05:07+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.121649s] [吞吐率：8.22req/s] [内存消耗：3,373.29kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commnets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:05:10+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.104398s] [吞吐率：9.58req/s] [内存消耗：3,218.10kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commnets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:06:40+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.130902s] [吞吐率：7.64req/s] [内存消耗：3,422.34kb] [文件加载：71]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commnets',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: comments[D:\phpStudy\WWW\tpblog\runtime\temp\fbce3aaa7119c233132fe18c8e076a10.php:258]
+---------------------------------------------------------------
+[ 2019-09-30T10:07:22+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.131159s] [吞吐率：7.62req/s] [内存消耗：3,374.40kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:08:28+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.140847s] [吞吐率：7.10req/s] [内存消耗：3,374.93kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:10:44+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.120883s] [吞吐率：8.27req/s] [内存消耗：3,218.27kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:12:20+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.128098s] [吞吐率：7.81req/s] [内存消耗：3,221.95kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:27:45+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.402499s] [吞吐率：2.48req/s] [内存消耗：3,432.90kb] [文件加载：71]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant admin - assumed 'admin'[D:\phpStudy\WWW\tpblog\runtime\temp\fbce3aaa7119c233132fe18c8e076a10.php:345]
+---------------------------------------------------------------
+[ 2019-09-30T10:28:14+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.151253s] [吞吐率：6.61req/s] [内存消耗：3,400.74kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:28:18+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.129027s] [吞吐率：7.75req/s] [内存消耗：3,241.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:28:21+08:00 ] 127.0.0.1 POST tpblog.cn/admin/comment/del.html
+[运行时间：0.176748s] [吞吐率：5.66req/s] [内存消耗：2,980.97kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->del[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:28:23+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.128658s] [吞吐率：7.77req/s] [内存消耗：3,195.55kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:28:34+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.133234s] [吞吐率：7.51req/s] [内存消耗：3,241.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:30:44+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.125701s] [吞吐率：7.96req/s] [内存消耗：3,241.38kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:30:47+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.119803s] [吞吐率：8.35req/s] [内存消耗：3,241.38kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:31:27+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.190102s] [吞吐率：5.26req/s] [内存消耗：3,252.38kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:35:31+08:00 ] 127.0.0.1 GET tpblog.cn/admin/adminlists.html
+[运行时间：0.453688s] [吞吐率：2.20req/s] [内存消耗：3,069.55kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\admin\lists.html [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:35:49+08:00 ] 127.0.0.1 GET tpblog.cn/admin/memberlists.html
+[运行时间：0.256971s] [吞吐率：3.89req/s] [内存消耗：3,218.60kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/adminlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\member\lists.html [ array (
+  0 => 'members',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:35:53+08:00 ] 127.0.0.1 POST tpblog.cn/admin/memberdel.html
+[运行时间：0.252202s] [吞吐率：3.97req/s] [内存消耗：3,101.97kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'del',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/memberlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->del[ D:\phpStudy\WWW\tpblog\application\admin\controller\Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:35:56+08:00 ] 127.0.0.1 GET tpblog.cn/admin/memberlists.html
+[运行时间：0.086119s] [吞吐率：11.61req/s] [内存消耗：3,053.55kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/memberlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\member\lists.html [ array (
+  0 => 'members',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:35:58+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.099895s] [吞吐率：10.01req/s] [内存消耗：3,242.06kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/memberlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:36:04+08:00 ] 127.0.0.1 GET tpblog.cn/admin/memberadd.html
+[运行时间：0.220673s] [吞吐率：4.53req/s] [内存消耗：1,958.69kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ D:\phpStudy\WWW\tpblog\application\admin\controller\Member.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\member\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:36:07+08:00 ] 127.0.0.1 GET tpblog.cn/admin/memberlists.html
+[运行时间：0.088314s] [吞吐率：11.32req/s] [内存消耗：3,053.49kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/memberadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\member\lists.html [ array (
+  0 => 'members',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:36:11+08:00 ] 127.0.0.1 POST tpblog.cn/admin/memberdel.html
+[运行时间：0.224356s] [吞吐率：4.46req/s] [内存消耗：3,101.98kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'del',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/memberlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->del[ D:\phpStudy\WWW\tpblog\application\admin\controller\Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:36:13+08:00 ] 127.0.0.1 GET tpblog.cn/admin/memberlists.html
+[运行时间：0.103729s] [吞吐率：9.64req/s] [内存消耗：3,050.28kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/memberlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\member\lists.html [ array (
+  0 => 'members',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:36:15+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.097763s] [吞吐率：10.23req/s] [内存消耗：3,196.27kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/memberlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:37:28+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：1.119787s] [吞吐率：0.89req/s] [内存消耗：3,252.95kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:37:30+08:00 ] 127.0.0.1 GET tpblog.cn/admin/memberlists.html
+[运行时间：0.152681s] [吞吐率：6.55req/s] [内存消耗：3,056.85kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\member\lists.html [ array (
+  0 => 'members',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:37:47+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.127870s] [吞吐率：7.82req/s] [内存消耗：3,252.96kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/memberlists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:38:12+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.141137s] [吞吐率：7.09req/s] [内存消耗：3,252.95kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:38:12+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.133222s] [吞吐率：7.51req/s] [内存消耗：3,252.95kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:38:30+08:00 ] 127.0.0.1 GET tpblog.cn/admin/articlelists.html
+[运行时间：0.378919s] [吞吐率：2.64req/s] [内存消耗：3,428.59kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\article\lists.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:41:02+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.134795s] [吞吐率：7.42req/s] [内存消耗：3,253.67kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/articlelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:41:06+08:00 ] 127.0.0.1 GET tpblog.cn/admin/articlelists.html
+[运行时间：0.107048s] [吞吐率：9.34req/s] [内存消耗：3,257.55kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\article\lists.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:41:10+08:00 ] 127.0.0.1 POST tpblog.cn/admin/articledel.html
+[运行时间：0.308542s] [吞吐率：3.24req/s] [内存消耗：3,112.42kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'del',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/articlelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->del[ D:\phpStudy\WWW\tpblog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:41:13+08:00 ] 127.0.0.1 GET tpblog.cn/admin/articlelists.html
+[运行时间：0.124406s] [吞吐率：8.04req/s] [内存消耗：3,257.09kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/articlelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\article\lists.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T10:41:48+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.131973s] [吞吐率：7.58req/s] [内存消耗：3,242.88kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/articlelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:32:06+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html
+[运行时间：0.764519s] [吞吐率：1.31req/s] [内存消耗：3,240.21kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:32:37+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html
+[运行时间：0.100661s] [吞吐率：9.93req/s] [内存消耗：3,072.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:32:42+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html
+[运行时间：0.100205s] [吞吐率：9.98req/s] [内存消耗：3,072.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:32:46+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html?page=2
+[运行时间：0.095588s] [吞吐率：10.46req/s] [内存消耗：3,053.48kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:32:52+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html?page=1
+[运行时间：0.099504s] [吞吐率：10.05req/s] [内存消耗：3,073.16kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:34:09+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html?page=1
+[运行时间：0.095617s] [吞吐率：10.46req/s] [内存消耗：3,073.80kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:35:35+08:00 ] 127.0.0.1 GET tpblog.cn/admin/articlelists.html
+[运行时间：0.520319s] [吞吐率：1.92req/s] [内存消耗：3,257.63kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\article\lists.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:35:46+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html
+[运行时间：0.073731s] [吞吐率：13.56req/s] [内存消耗：3,073.31kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/articlelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:35:49+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html?page=2
+[运行时间：0.078769s] [吞吐率：12.70req/s] [内存消耗：3,054.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:36:19+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.487164s] [吞吐率：2.05req/s] [内存消耗：3,253.67kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:36:21+08:00 ] 127.0.0.1 GET tpblog.cn/admin/articlelists.html
+[运行时间：0.105313s] [吞吐率：9.50req/s] [内存消耗：3,257.55kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/comment.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\article\lists.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:36:27+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html
+[运行时间：0.091672s] [吞吐率：10.91req/s] [内存消耗：3,073.31kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/articlelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:36:31+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html?page=2
+[运行时间：0.077489s] [吞吐率：12.91req/s] [内存消耗：3,054.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:36:34+08:00 ] 127.0.0.1 POST tpblog.cn/admin/cateedit.html
+[运行时间：0.180709s] [吞吐率：5.53req/s] [内存消耗：3,177.33kb] [文件加载：63]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'del',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tpblog.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tpblog.cn/admin/catelists.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->del[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:36:36+08:00 ] 127.0.0.1 GET tpblog.cn/admin/catelists.html
+[运行时间：0.080667s] [吞吐率：12.40req/s] [内存消耗：3,073.32kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\cate\lists.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:36:40+08:00 ] 127.0.0.1 GET tpblog.cn/admin/articlelists.html
+[运行时间：0.084408s] [吞吐率：11.85req/s] [内存消耗：3,253.23kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/catelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\article\lists.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-30T11:36:45+08:00 ] 127.0.0.1 GET tpblog.cn/admin/comment.html
+[运行时间：0.091373s] [吞吐率：10.94req/s] [内存消耗：3,253.67kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tpblog.cn/admin/articlelists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; current-skin=/static/admin/css/skins/blue.min.css; pgv_si=s4931103744; PHPSESSID=papcmpsq36a9g4rao5ir39i1a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->lists[ D:\phpStudy\WWW\tpblog\application\admin\controller\Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/admin\view\comment\lists.html [ array (
+  0 => 'commets',
+) ]
+[ info ] [ LOG ] INIT File

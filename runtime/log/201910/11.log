@@ -1,0 +1,540 @@
+---------------------------------------------------------------
+[ 2019-10-11T08:45:31+08:00 ] 127.0.0.1 GET tpblog.cn/
+[运行时间：0.671533s] [吞吐率：1.49req/s] [内存消耗：3,194.52kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tpblog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/index\view\index\index.html [ array (
+  0 => 'cates',
+  1 => 'webInfo',
+  2 => 'topArticles',
+  3 => 'articles',
+  4 => 'catename',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T08:46:25+08:00 ] 127.0.0.1 GET tpblog.cn/
+[运行时间：0.087985s] [吞吐率：11.37req/s] [内存消耗：3,194.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; PHPSESSID=vs3et083vvrj18qjv233pu2074',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tpblog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/index\view\index\index.html [ array (
+  0 => 'cates',
+  1 => 'webInfo',
+  2 => 'topArticles',
+  3 => 'articles',
+  4 => 'catename',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T08:48:54+08:00 ] 192.168.43.1 GET 192.168.43.223/tpblog/public/
+[运行时间：0.060861s] [吞吐率：16.43req/s] [内存消耗：3,194.73kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.43.223',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.2; vivo X9L Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.7.1.1',
+  'starttime' => '1570754936227',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.43.223/tpblog/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tpblog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/index\view\index\index.html [ array (
+  0 => 'cates',
+  1 => 'webInfo',
+  2 => 'topArticles',
+  3 => 'articles',
+  4 => 'catename',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T08:49:49+08:00 ] 192.168.43.1 GET 192.168.43.223/tpblog/public/
+[运行时间：0.067168s] [吞吐率：14.89req/s] [内存消耗：3,194.93kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.43.223',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.2; vivo X9L Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.7.1.1',
+  'starttime' => '1570754991201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.43.223/tpblog/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'cookie' => 'PHPSESSID=2qbj4gmp7utm74qn8gbjfsgc67',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tpblog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/index\view\index\index.html [ array (
+  0 => 'cates',
+  1 => 'webInfo',
+  2 => 'topArticles',
+  3 => 'articles',
+  4 => 'catename',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T08:49:53+08:00 ] 192.168.43.1 GET 192.168.43.223/tpblog/public/index/login.html
+[运行时间：0.170794s] [吞吐率：5.86req/s] [内存消耗：3,066.49kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.43.223',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.2; vivo X9L Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.7.1.1',
+  'starttime' => '1570754995321',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.43.223/tpblog/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'cookie' => 'PHPSESSID=2qbj4gmp7utm74qn8gbjfsgc67',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\WWW\tpblog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/index\view\index\login.html [ array (
+  0 => 'cates',
+  1 => 'webInfo',
+  2 => 'topArticles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T08:49:54+08:00 ] 192.168.43.1 GET 192.168.43.223/tpblog/public/captcha.html
+[运行时间：0.119628s] [吞吐率：8.36req/s] [内存消耗：1,481.54kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.43.223',
+  'connection' => 'keep-alive',
+  'in-form-img' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.2; vivo X9L Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.7.1.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.43.223/tpblog/public/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'cookie' => 'PHPSESSID=2qbj4gmp7utm74qn8gbjfsgc67',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\tpblog\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T08:49:55+08:00 ] 192.168.43.1 GET 192.168.43.223/tpblog/public/captcha.html?id=5
+[运行时间：0.019288s] [吞吐率：51.85req/s] [内存消耗：1,481.54kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.43.223',
+  'connection' => 'keep-alive',
+  'in-form-img' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.2; vivo X9L Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.7.1.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.43.223/tpblog/public/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'cookie' => 'PHPSESSID=2qbj4gmp7utm74qn8gbjfsgc67',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\tpblog\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T08:49:56+08:00 ] 192.168.43.1 GET 192.168.43.223/tpblog/public/captcha.html?id=5
+[运行时间：0.037222s] [吞吐率：26.87req/s] [内存消耗：1,481.53kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.43.223',
+  'connection' => 'keep-alive',
+  'in-form-img' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.2; vivo X9L Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.7.1.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.43.223/tpblog/public/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'cookie' => 'PHPSESSID=2qbj4gmp7utm74qn8gbjfsgc67',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\tpblog\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T08:49:56+08:00 ] 192.168.43.1 GET 192.168.43.223/tpblog/public/captcha.html?id=5
+[运行时间：0.040848s] [吞吐率：24.48req/s] [内存消耗：1,481.53kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.43.223',
+  'connection' => 'keep-alive',
+  'in-form-img' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.2; vivo X9L Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.7.1.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.43.223/tpblog/public/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'cookie' => 'PHPSESSID=2qbj4gmp7utm74qn8gbjfsgc67',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\tpblog\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T08:49:56+08:00 ] 192.168.43.1 GET 192.168.43.223/tpblog/public/captcha.html?id=5
+[运行时间：0.023360s] [吞吐率：42.81req/s] [内存消耗：1,481.56kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.43.223',
+  'connection' => 'keep-alive',
+  'in-form-img' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.2; vivo X9L Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.7.1.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.43.223/tpblog/public/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'cookie' => 'PHPSESSID=2qbj4gmp7utm74qn8gbjfsgc67',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\tpblog\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T09:05:32+08:00 ] 127.0.0.1 GET tpblog.cn/
+[运行时间：0.107370s] [吞吐率：9.31req/s] [内存消耗：3,194.84kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; PHPSESSID=vs3et083vvrj18qjv233pu2074',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tpblog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/index\view\index\index.html [ array (
+  0 => 'cates',
+  1 => 'webInfo',
+  2 => 'topArticles',
+  3 => 'articles',
+  4 => 'catename',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T09:08:46+08:00 ] 127.0.0.1 GET tpblog.cn/
+[运行时间：0.097116s] [吞吐率：10.30req/s] [内存消耗：3,194.64kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; PHPSESSID=vs3et083vvrj18qjv233pu2074',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tpblog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/index\view\index\index.html [ array (
+  0 => 'cates',
+  1 => 'webInfo',
+  2 => 'topArticles',
+  3 => 'articles',
+  4 => 'catename',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-11T09:08:47+08:00 ] 127.0.0.1 GET tpblog.cn/
+[运行时间：0.097785s] [吞吐率：10.23req/s] [内存消耗：3,194.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpblog.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'breadcrumbs-fixed=false; page-header-fixed=false; navbar-fixed-top=false; sidebar-fixed=false; pgv_pvi=2276014080; PHPSESSID=vs3et083vvrj18qjv233pu2074',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tpblog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpblog\public/../application/index\view\index\index.html [ array (
+  0 => 'cates',
+  1 => 'webInfo',
+  2 => 'topArticles',
+  3 => 'articles',
+  4 => 'catename',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

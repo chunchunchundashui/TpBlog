@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2020-01-04T14:48:12+08:00 ] 127.0.0.1 POST tpblog.cn/admin/reset.html
+[ error ] [2]fputs(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140D00CF:SSL routines:SSL_write:protocol is shutdown

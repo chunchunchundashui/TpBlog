@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2019-12-23T08:59:43+08:00 ] 127.0.0.1 GET tpblog.cn/
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2019-12-23T08:59:50+08:00 ] 127.0.0.1 GET tpblog.cn/
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
